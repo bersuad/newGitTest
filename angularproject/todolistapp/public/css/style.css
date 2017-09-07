@@ -12,23 +12,53 @@ body
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	width: 350px;
+	width: 400px;
 	padding: 80px 40px;
 	box-sizing: border-box;
 	height: 550px;
 	background: rgba(0,0,0,.6);
 	overflow: auto;
 }
+
+.Box
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: auto;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	height: 600px;
+	background: rgba(0,0,0,.6);
+	overflow: auto;
+}
+.Box h1,th,td{
+	color:white;
+}
+
+
+
 .user 
 {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    overflow: hidden;
+    overflow: auto;
     position: absolute;
     top: calc(-100px/2);
     left: calc(50% - 50px);
 }
+#login-btn{
+	width:100%;
+	color:white;
+	background:#55acee;
+	font-size:15px;
+	text-align:center;
+	vertical-align:middle;
+	line-height: 20px; 	
+}
+
 h2
 {
 	margin: 0;
